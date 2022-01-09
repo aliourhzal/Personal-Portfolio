@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+}
+
+#main {
+	background-color: #121212;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#main #title {
+	padding: 10px;
+}
+
+#main #title h1 {
+	color: #fdd017;
+	text-align: center;
+	font-family: Poppins;
+}
+
+#main #title p {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: Poppins;
+}
+
+#main #img-div {
+  	width: 90%;
+	background-color: #121212;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#main #img-div img {
+	max-width: 1200px;
+	height: auto;
+}
+
+#main #img-div div {
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+#tribute-info {
+	width: 750px;
+	overflow: hidden;
+}
+
+#tribute-info h2 {
+	color: #fdd017;
+	text-align: center;
+	font-family: Poppins;
+}
+
+#tribute-info ul li {
+	color: white;
+	font-family: Poppins;
+	font-size: 18px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+
+#tribute-info ul li span{
+	color: white;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#main h3 {
+	font-size: 20px;
+	font-family: Poppins;
+	color: white;
+	text-align: center;
+}
+
+@media (max-width: 1250px)
+{
+	#main #img-div {
+		padding: 10px;
+	}
+	#main #img-div img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 750px)
+{
+	#tribute-info {
+		width: 95%;
+		overflow: hidden;
+	}
+}
